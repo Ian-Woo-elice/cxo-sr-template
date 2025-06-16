@@ -1,0 +1,20 @@
+{
+  "name": "cxo-sr-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node build.cjs",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "https://ian-woo-elice.github.io/cxo-sr-template",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
