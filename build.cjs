@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const files = ['index.html'];
+const files = ['index.html', 'SavedReplyManager.jsx'];
 const srcDir = 'src';
 const buildDir = 'build';
 
