@@ -8,7 +8,14 @@
     "build": "node build.cjs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-    "test": "jest"
+    "gh-pages": "^6.0.0",
+    "jest": "^29.6.1",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "keywords": [],
   "author": "",
