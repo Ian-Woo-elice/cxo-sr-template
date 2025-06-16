@@ -1,5 +1,9 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
+import SavedReplyManager from './SavedReplyManager.jsx';
+
+// Expose React globally for the component which expects a global React
+global.React = React;
 import SavedReplyManager from './SavedReplyManager';
 
 describe('SavedReplyManager', () => {
