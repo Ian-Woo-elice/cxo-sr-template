@@ -4,6 +4,7 @@ import SavedReplyManager from './SavedReplyManager.jsx';
 
 // Expose React globally for the component which expects a global React
 global.React = React;
+import SavedReplyManager from './SavedReplyManager';
 
 describe('SavedReplyManager', () => {
   test('renders initial category and subcategory', () => {

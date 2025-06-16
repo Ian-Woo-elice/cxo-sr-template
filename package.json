@@ -8,6 +8,7 @@
     "build": "node build.cjs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -24,4 +25,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
+    "gh-pages": "^6.0.0"
+  }
+  "type": "module"
 }
