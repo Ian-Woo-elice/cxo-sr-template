@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
+const files = ['index.html'];
 const files = ['index.html', 'SavedReplyManager.jsx'];
 const srcDir = 'src';
 const buildDir = 'build';
@@ -15,4 +16,5 @@ for (const file of files) {
 fs.mkdirSync(path.join(buildDir, srcDir), { recursive: true });
 fs.copyFileSync(path.join(srcDir, 'App.js'), path.join(buildDir, srcDir, 'App.js'));
 fs.copyFileSync(path.join(srcDir, 'index.js'), path.join(buildDir, srcDir, 'index.js'));
+fs.copyFileSync(path.join(srcDir, 'SavedReplyManager.jsx'), path.join(buildDir, srcDir, 'SavedReplyManager.jsx'));
 
