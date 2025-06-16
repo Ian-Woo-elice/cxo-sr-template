@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const files = ['index.html'];
-const files = ['index.html', 'SavedReplyManager.jsx'];
+fs.copyFileSync(path.join(srcDir, 'SavedReplyManager.js'), path.join(buildDir, srcDir, 'SavedReplyManager.js'));
 const srcDir = 'src';
 const buildDir = 'build';
 
