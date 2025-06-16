@@ -8,6 +8,7 @@
     "build": "node build.cjs",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -17,4 +18,5 @@
   "devDependencies": {
     "gh-pages": "^6.0.0"
   }
+  "type": "module"
 }
